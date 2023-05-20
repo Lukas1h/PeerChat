@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40EBFCE62A16E82D0041012C /* PeerSotialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EBFCE52A16E82D0041012C /* PeerSotialApp.swift */; };
+		40EBFCE62A16E82D0041012C /* PeerChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EBFCE52A16E82D0041012C /* PeerChatApp.swift */; };
 		40EBFCE82A16E82D0041012C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EBFCE72A16E82D0041012C /* ContentView.swift */; };
 		40EBFCEA2A16E82F0041012C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EBFCE92A16E82F0041012C /* Assets.xcassets */; };
 		40EBFCED2A16E82F0041012C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EBFCEC2A16E82F0041012C /* Preview Assets.xcassets */; };
+		40EBFCF42A16E8950041012C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EBFCF32A16E8940041012C /* Model.swift */; };
+		40EBFCFF2A1734A40041012C /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EBFCFE2A1734A30041012C /* ChatView.swift */; };
+		40EBFD052A1982060041012C /* ChatMessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EBFD042A1982060041012C /* ChatMessageRow.swift */; };
+		40EBFD082A19824F0041012C /* Character+Exts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EBFD072A19824F0041012C /* Character+Exts.swift */; };
+		40EBFD0A2A19827B0041012C /* String+Exts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EBFD092A19827B0041012C /* String+Exts.swift */; };
+		40EBFD0D2A1982AD0041012C /* TextFieldStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EBFD0C2A1982AD0041012C /* TextFieldStyles.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		40EBFCFC2A16E9E70041012C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		40EBFCE22A16E82D0041012C /* PeerSotial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeerSotial.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		40EBFCE52A16E82D0041012C /* PeerSotialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerSotialApp.swift; sourceTree = "<group>"; };
+		40EBFCE22A16E82D0041012C /* PeerChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeerChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EBFCE52A16E82D0041012C /* PeerChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerChatApp.swift; sourceTree = "<group>"; };
 		40EBFCE72A16E82D0041012C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		40EBFCE92A16E82F0041012C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40EBFCEC2A16E82F0041012C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40EBFCF32A16E8940041012C /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		40EBFCFD2A16EEDC0041012C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		40EBFCFE2A1734A30041012C /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		40EBFD042A1982060041012C /* ChatMessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageRow.swift; sourceTree = "<group>"; };
+		40EBFD072A19824F0041012C /* Character+Exts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+Exts.swift"; sourceTree = "<group>"; };
+		40EBFD092A19827B0041012C /* String+Exts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Exts.swift"; sourceTree = "<group>"; };
+		40EBFD0C2A1982AD0041012C /* TextFieldStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +61,7 @@
 		40EBFCD92A16E82D0041012C = {
 			isa = PBXGroup;
 			children = (
-				40EBFCE42A16E82D0041012C /* PeerSotial */,
+				40EBFCE42A16E82D0041012C /* PeerChat */,
 				40EBFCE32A16E82D0041012C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +69,23 @@
 		40EBFCE32A16E82D0041012C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				40EBFCE22A16E82D0041012C /* PeerSotial.app */,
+				40EBFCE22A16E82D0041012C /* PeerChat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		40EBFCE42A16E82D0041012C /* PeerSotial */ = {
+		40EBFCE42A16E82D0041012C /* PeerChat */ = {
 			isa = PBXGroup;
 			children = (
-				40EBFCE52A16E82D0041012C /* PeerSotialApp.swift */,
-				40EBFCE72A16E82D0041012C /* ContentView.swift */,
+				40EBFD062A1982250041012C /* Extensions */,
+				40EBFD002A19819A0041012C /* Views */,
+				40EBFD012A1981A40041012C /* Model */,
+				40EBFCE52A16E82D0041012C /* PeerChatApp.swift */,
+				40EBFCFD2A16EEDC0041012C /* Info.plist */,
 				40EBFCE92A16E82F0041012C /* Assets.xcassets */,
 				40EBFCEB2A16E82F0041012C /* Preview Content */,
 			);
-			path = PeerSotial;
+			path = PeerChat;
 			sourceTree = "<group>";
 		};
 		40EBFCEB2A16E82F0041012C /* Preview Content */ = {
@@ -67,24 +96,79 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		40EBFD002A19819A0041012C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40EBFD0B2A19829D0041012C /* Styles */,
+				40EBFD022A1981BD0041012C /* Chat */,
+				40EBFCE72A16E82D0041012C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40EBFD012A1981A40041012C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40EBFCF32A16E8940041012C /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40EBFD022A1981BD0041012C /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				40EBFD032A1981F30041012C /* MessageRow */,
+				40EBFCFE2A1734A30041012C /* ChatView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		40EBFD032A1981F30041012C /* MessageRow */ = {
+			isa = PBXGroup;
+			children = (
+				40EBFD042A1982060041012C /* ChatMessageRow.swift */,
+			);
+			path = MessageRow;
+			sourceTree = "<group>";
+		};
+		40EBFD062A1982250041012C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40EBFD072A19824F0041012C /* Character+Exts.swift */,
+				40EBFD092A19827B0041012C /* String+Exts.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		40EBFD0B2A19829D0041012C /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				40EBFD0C2A1982AD0041012C /* TextFieldStyles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		40EBFCE12A16E82D0041012C /* PeerSotial */ = {
+		40EBFCE12A16E82D0041012C /* PeerChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40EBFCF02A16E82F0041012C /* Build configuration list for PBXNativeTarget "PeerSotial" */;
+			buildConfigurationList = 40EBFCF02A16E82F0041012C /* Build configuration list for PBXNativeTarget "PeerChat" */;
 			buildPhases = (
 				40EBFCDE2A16E82D0041012C /* Sources */,
 				40EBFCDF2A16E82D0041012C /* Frameworks */,
 				40EBFCE02A16E82D0041012C /* Resources */,
+				40EBFCFC2A16E9E70041012C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PeerSotial;
+			name = PeerChat;
+			packageProductDependencies = (
+			);
 			productName = PeerSotial;
-			productReference = 40EBFCE22A16E82D0041012C /* PeerSotial.app */;
+			productReference = 40EBFCE22A16E82D0041012C /* PeerChat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 40EBFCDD2A16E82D0041012C /* Build configuration list for PBXProject "PeerSotial" */;
+			buildConfigurationList = 40EBFCDD2A16E82D0041012C /* Build configuration list for PBXProject "PeerChat" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,11 +195,13 @@
 				Base,
 			);
 			mainGroup = 40EBFCD92A16E82D0041012C;
+			packageReferences = (
+			);
 			productRefGroup = 40EBFCE32A16E82D0041012C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40EBFCE12A16E82D0041012C /* PeerSotial */,
+				40EBFCE12A16E82D0041012C /* PeerChat */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +223,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40EBFCFF2A1734A40041012C /* ChatView.swift in Sources */,
+				40EBFD052A1982060041012C /* ChatMessageRow.swift in Sources */,
+				40EBFCF42A16E8950041012C /* Model.swift in Sources */,
 				40EBFCE82A16E82D0041012C /* ContentView.swift in Sources */,
-				40EBFCE62A16E82D0041012C /* PeerSotialApp.swift in Sources */,
+				40EBFCE62A16E82D0041012C /* PeerChatApp.swift in Sources */,
+				40EBFD0D2A1982AD0041012C /* TextFieldStyles.swift in Sources */,
+				40EBFD082A19824F0041012C /* Character+Exts.swift in Sources */,
+				40EBFD0A2A19827B0041012C /* String+Exts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,6 +362,7 @@
 				DEVELOPMENT_TEAM = 8AK8X62ARR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeerSotial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +392,7 @@
 				DEVELOPMENT_TEAM = 8AK8X62ARR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeerSotial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,7 +414,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40EBFCDD2A16E82D0041012C /* Build configuration list for PBXProject "PeerSotial" */ = {
+		40EBFCDD2A16E82D0041012C /* Build configuration list for PBXProject "PeerChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40EBFCEE2A16E82F0041012C /* Debug */,
@@ -329,7 +423,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40EBFCF02A16E82F0041012C /* Build configuration list for PBXNativeTarget "PeerSotial" */ = {
+		40EBFCF02A16E82F0041012C /* Build configuration list for PBXNativeTarget "PeerChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40EBFCF12A16E82F0041012C /* Debug */,
